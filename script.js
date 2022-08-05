@@ -67,7 +67,7 @@ async function getQuote(){
 }
 
 const tweet =()=>{
-    tweetApi=`https://twitter.com/intent/tweet?text=${quoteText} - ${quoteAuthor}.`;
+    tweetApi=`https://twitter.com/intent/tweet?text=${apiQuote.quoteText} - ${apiQuote.quoteAuthor}.`;
     window.open(tweetApi,"_blank");
 }
 
