@@ -1,2 +1,2 @@
 # Quote-Generator
-Simple website. Which makesAPI calls to get new quote. 
+Simple website, Which makes API calls to get new quote. 
